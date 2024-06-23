@@ -1,0 +1,29 @@
+{
+    "name": "ashumizi/contact-package",
+    "description": "This Package Help you to save your Contact information",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ashumizi\\ContactPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashraf",
+            "email": "miazi.ashraf@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Ashumizi\\ContactPackage\\ContactServiceProvider"
+        ]
+        
+    }
+}
+
+}
